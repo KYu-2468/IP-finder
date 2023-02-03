@@ -12,8 +12,8 @@ import * as dotenv from "dotenv";
 // Setup environment variables in .env file
 dotenv.config();
 
-// Setup port to listen to; defaults to 8080
-const port: String = process.env.PORT || "8080";
+// Setup port to listen to; defaults to 4000
+const port: String = process.env.PORT || "4000";
 
 // Create Apollo server
 const server = new ApolloServer({ typeDefs, resolvers });
