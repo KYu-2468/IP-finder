@@ -9,7 +9,7 @@
     "dev": "nodemon src/index.ts",
     "start:dev": "npx nodemon",
     "build": "rimraf ./build && npx tsc",
-    "start": "npm run compile && node -r dotenv/config ./build/index.js"
+    "start": "npm run compile && node build/index.js"
   },
   "keywords": [],
   "author": "",
